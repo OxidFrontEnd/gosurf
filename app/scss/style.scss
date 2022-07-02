@@ -192,7 +192,7 @@
 }
 
 .surf{
-    padding: 160px 0 120px;
+    
     background-image: url(../images/surf-bg.svg);
     background-repeat: no-repeat;
     background-position: right 200px;
@@ -313,6 +313,7 @@ height: 24px;
 background-color: $green;
 border-radius: 50%;
 box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
+cursor: pointer;
 }
 .slider-dots{
     position: relative;
@@ -438,6 +439,15 @@ box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
 
 
 .travel{
+    .slider-arrows{
+        padding-right: 5px;
+        top:130px;
+        opacity: 0.25;
+    }
+    padding-bottom: 230px;
+    background-image: url(../images/cocktail.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
     span{
         h3{
             transform: translateX(-109px);
@@ -445,6 +455,90 @@ box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
         }
     }
 }
+
+.travel-slider{
+    
+    &__head{
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: auto;
+        min-height: 780px;
+    }
+    &__descr{
+        margin-top: -230px;
+        min-height: 320px;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto;
+        padding-top: 160px;
+        padding-left: 133px;
+        
+        .descr__head{
+            padding-right: 78px;
+            position: relative;
+            img{
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+
+    &__btn{
+        text-align: center;
+    }
+
+    &__info{
+        padding: 120px 100px 66px 130px;
+        display: flex;
+        justify-content: space-between;
+        &-item{
+            width: 275px;
+            min-height: 200px;
+            position: relative;
+        }
+        &-subtitle{
+            
+            position: absolute;
+            left: -97px;
+            top: 97px;
+            width: 200px;
+            height: 0;
+            white-space: nowrap;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: right;
+            letter-spacing: 8px;
+            opacity: 0.5;
+            transform: rotate(-90deg);
+        }
+        &-title{
+            padding-left: 40px;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 36px;
+            position: relative;
+            span{
+                display: block;
+                position: absolute;
+                bottom: -100%;
+                right: 12%;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 36px;
+                text-align: right;
+                letter-spacing: 5.25px;
+                opacity: 0.75;
+            }
+        }
+    }
+}
+.travel-slider__subtitle{
+    text-align: right;
+    padding-right: 80px;
+    transform: translateY(50%);
+}
+
 
 
 

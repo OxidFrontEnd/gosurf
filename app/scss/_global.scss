@@ -28,6 +28,12 @@ li{
     margin: 0;
     padding: 0;
 }
+.surf,
+.travel,
+.sleep,
+.shop{
+    padding: 160px 0 120px;
+}
 
 .headline-left{
     font-style: normal;
@@ -94,6 +100,40 @@ li{
         span{
             font-weight: 100;
         }
+    }
+}
+
+.descr {
+    display: inline-block;
+    &__head{
+        font-weight: 800;
+        font-size: 40px;
+        padding-right: 10px;
+        span{
+            font-weight: 100;
+        }
+    }
+}
+
+.headline-right{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;  
+    letter-spacing: 7.33333px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-right: 104px;
+    position: relative;
+    display: inline-block;
+    &::after{
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 1px;
+        background-color: #fff;
+        right:0;
+        top: 50%;
     }
 }
 
