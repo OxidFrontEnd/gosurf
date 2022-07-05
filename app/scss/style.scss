@@ -438,14 +438,14 @@ cursor: pointer;
 
 
 
-.travel{
+.holder{
     .slider-arrows{
         padding-right: 5px;
         top:130px;
         opacity: 0.25;
     }
     padding-bottom: 230px;
-    background-image: url(../images/cocktail.png);
+    background-image: url(../images/flawer.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     span{
@@ -456,7 +456,7 @@ cursor: pointer;
     }
 }
 
-.travel-slider{
+.holder-slider{
     
     &__head{
         background-repeat: no-repeat;
@@ -533,12 +533,11 @@ cursor: pointer;
         }
     }
 }
-.travel-slider__subtitle{
+.holder-slider__subtitle{
     text-align: right;
     padding-right: 80px;
     transform: translateY(50%);
 }
-
 
 
 
