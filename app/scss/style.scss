@@ -445,7 +445,7 @@ cursor: pointer;
         opacity: 0.25;
     }
     padding-bottom: 230px;
-    background-image: url(../images/flawer.png);
+    background-image: url(../images/cocktail.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     span{
@@ -472,14 +472,30 @@ cursor: pointer;
         background-size: auto;
         padding-top: 160px;
         padding-left: 133px;
+
+
         
         .descr__head{
-            padding-right: 78px;
+            padding-right:78px;
             position: relative;
             img{
                 position: absolute;
                 right: 0;
                 top: 0;
+            }
+            .holder__star-list{
+                position: absolute;
+                right: 0;
+                top: 0;
+                li{
+                    display: inline-block;
+                    margin-left: -25px;
+                    transform: translateX(250%);
+                }
+                img{
+                    position: static;
+                    
+                }
             }
         }
     }
@@ -493,7 +509,7 @@ cursor: pointer;
         display: flex;
         justify-content: space-between;
         &-item{
-            width: 275px;
+            // width: 275px;
             min-height: 200px;
             position: relative;
         }
@@ -518,11 +534,11 @@ cursor: pointer;
             font-size: 40px;
             line-height: 36px;
             position: relative;
-            span{
+            .holder-slider__info-pricing{
                 display: block;
                 position: absolute;
                 bottom: -100%;
-                right: 12%;
+                right: 0;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 36px;
@@ -538,6 +554,7 @@ cursor: pointer;
     padding-right: 80px;
     transform: translateY(50%);
 }
+
 
 
 
